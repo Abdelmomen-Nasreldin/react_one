@@ -1,0 +1,22 @@
+.cartError{
+    width: 280px;
+    height:280px;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    background-color: rgb(223, 56, 56);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overLay{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height:100%;
+    width: 100%;
+    background-color: #1f1f1f;
+    opacity: .4;
+}

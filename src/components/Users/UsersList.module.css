@@ -1,0 +1,14 @@
+.unorderedList{
+    list-style: none;
+    margin-bottom : 0;
+    padding-left: 0;
+}
+.listIcon {
+  position: relative;
+}
+
+.exitIcon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
