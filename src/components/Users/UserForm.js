@@ -3,7 +3,7 @@ import ErrorModel from './ErrorModel';
 import CartUI from './../UI/CartUI';
 import classes from './UserForm.module.css'
 
-const UserForm = ({setUsers}) => {
+const UserFormUsingState = ({setUsers}) => {
   const [userName, setUserName] = useState("");
   const [userAge, setUserAge] = useState("");
   const [isErrFound, setIsErrFound] = useState(false);
@@ -67,4 +67,4 @@ const UserForm = ({setUsers}) => {
   );
 };
 
-export default UserForm;
+export default UserFormUsingState;

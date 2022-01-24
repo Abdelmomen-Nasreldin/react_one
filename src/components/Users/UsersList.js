@@ -17,7 +17,7 @@ const UsersList = ({ users, setUsers }) => {
             users.map((user) => {
               return (
                 <>
-                  <li className={classes.listIcon}>
+                  <li className={classes.listIcon} key={user.id}>
                     {" "}
                     {user.name} and age: {user.age}
                     <div
